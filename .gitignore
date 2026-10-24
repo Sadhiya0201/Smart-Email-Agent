@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+node_modules/
+venv/
+.venv/
+__pycache__/
+backend/credentials.json
+backend/firebase-service-account.json
+backend/state.json
+mobile/.expo/
+mobile/node_modules/
+mobile/google-services.json

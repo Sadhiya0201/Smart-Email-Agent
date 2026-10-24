@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Smart Email Agent",
+    "slug": "smart-email-agent",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.sadhu.smartemailagent",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "VIBRATE",
+        "RECEIVE_BOOT_COMPLETED",
+        "USE_FULL_SCREEN_INTENT",
+        "WAKE_LOCK"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.sadhu.smartemailagent",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "remote-notification"
+        ]
+      }
+    },
+    "plugins": [
+      "expo-notifications",
+      "@react-native-firebase/app",
+      "@react-native-firebase/messaging"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "5f02309c-05a8-4d1b-833b-3a5a9081e4f9"
+      }
+    }
+  }
+}
